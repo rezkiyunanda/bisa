@@ -38,3 +38,6 @@ Route::resource('korbanKendaraans', 'korban_kendaraanController');
 
 Route::resource('korbanKecelakaans', 'korban_kecelakaanController');
 
+
+
+Route::resource('tilangs', 'tilangController');

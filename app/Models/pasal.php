@@ -33,7 +33,7 @@ class pasal extends Model
         'no',
         'ayat',
         'bunyi_pasal',
-        'jenis_pelanggaran'
+       
     ];
 
     /**
@@ -45,7 +45,7 @@ class pasal extends Model
         'no' => 'integer',
         'ayat' => 'string',
         'bunyi_pasal' => 'string',
-        'jenis_pelanggaran' => 'string'
+     
     ];
 
     /**

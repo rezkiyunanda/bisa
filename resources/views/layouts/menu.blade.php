@@ -21,3 +21,7 @@
 </li>
 
 
+<li class="{{ Request::is('tilangs*') ? 'active' : '' }}">
+    <a href="{!! route('tilangs.index') !!}"><i class="fa fa-edit"></i><span>Tilangs</span></a>
+</li>
+

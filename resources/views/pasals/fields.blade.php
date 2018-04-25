@@ -4,7 +4,7 @@
 </div>
 <!-- Nama Pasal Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('ayat', 'Ayat :') !!}
+    {!! Form::label('ayat', 'Jenis Pasal:') !!}
     {!! Form::text('ayat', null, ['class' => 'form-control']) !!}
 </div>
 
@@ -14,11 +14,6 @@
     {!! Form::text('bunyi_pasal', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Jenis Pelanggaran Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('jenis_pelanggaran', 'Jenis Pelanggaran:') !!}
-    {!! Form::text('jenis_pelanggaran', null, ['class' => 'form-control']) !!}
-</div>
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
